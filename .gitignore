@@ -47,3 +47,8 @@ build/
 ############################
 Thumbs.db
 .DS_Store
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist/
