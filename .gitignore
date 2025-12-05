@@ -1,0 +1,49 @@
+############################
+# .NET / C#
+############################
+
+# Build output
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/publish/
+**/TestResults/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Logs
+*.log
+Logs/
+
+# VS cache
+.vs/
+
+############################
+# Frontend (nếu sau dùng React/Vite/Node)
+############################
+node_modules/
+dist/
+build/
+.cache/
+.temp/
+
+############################
+# Secrets / env
+############################
+.env
+.env.*
+*.db
+*.sqlite
+
+############################
+# OS files
+############################
+Thumbs.db
+.DS_Store
